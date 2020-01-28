@@ -40,13 +40,10 @@ links:
   icon_pack: fas
   icon: link
 - name: CODE
-  url: https://github.com
+  url: https://github.com/davidmrdavid/hoogle_plus/tree/mj_popl_aec
   icon_pack: fas
   icon: code-branch
-- name: DEMO
-  url: https://goto.ucsd.edu/hoogle_plus
-  icon_pack: fas
-  icon: tools
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -61,7 +58,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+projects: [hoogleplus]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

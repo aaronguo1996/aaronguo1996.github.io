@@ -41,16 +41,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:zhg069@eng.ucsd.edu'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/AaronGuo069
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.co.uk/citations?user=YH-23g0AAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/aaronguo1996
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -67,6 +67,12 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Ph.D. student in the [Computer Science and Engineering Department](https://cse.ucsd.edu) 
+at the [University of California, San Diego](https://www.ucsd.edu). 
+I am fortunate to be advised by [Prof. Nadia Polikarpova](http://cseweb.ucsd.edu/~npolikarpova), 
+and be a member of [Programming Systems group](http://cseweb.ucsd.edu/groups/progsys/).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am interested in using programming language techniques to automate programming tasks. 
+Currently, I focus on synthesis tools that generate programs with given specifications, 
+work to make the automated search scale to real-world need and 
+try to infer human intentions from limited information.
