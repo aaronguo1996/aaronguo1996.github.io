@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zheng Guo</title>
+    <link>https://aaronguo1996.github.io/</link>
+      <atom:link href="https://aaronguo1996.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zheng Guo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Jan 2020 17:51:28 -0800</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Zheng Guo</title>
+      <link>https://aaronguo1996.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Hoogle&#43;</title>
+      <link>https://aaronguo1996.github.io/project/hoogleplus/</link>
+      <pubDate>Mon, 27 Jan 2020 17:51:28 -0800</pubDate>
+      <guid>https://aaronguo1996.github.io/project/hoogleplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Program Synthesis by Type-Guided Abstraction Refinement</title>
+      <link>https://aaronguo1996.github.io/publication/tygar/</link>
+      <pubDate>Mon, 27 Jan 2020 15:33:17 -0800</pubDate>
+      <guid>https://aaronguo1996.github.io/publication/tygar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hoogle&#43;: Program Synthesis by Type-Guided Abstraction Refinement</title>
+      <link>https://aaronguo1996.github.io/talk/tygar/</link>
+      <pubDate>Wed, 22 Jan 2020 11:45:00 -0800</pubDate>
+      <guid>https://aaronguo1996.github.io/talk/tygar/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

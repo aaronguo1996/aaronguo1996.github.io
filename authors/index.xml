@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Zheng Guo</title>
+    <link>https://aaronguo1996.github.io/authors/</link>
+      <atom:link href="https://aaronguo1996.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Jan 2020 15:33:17 -0800</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Authors</title>
+      <link>https://aaronguo1996.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title>David Justo</title>
+      <link>https://aaronguo1996.github.io/authors/david-justo/</link>
+      <pubDate>Mon, 27 Jan 2020 15:33:17 -0800</pubDate>
+      <guid>https://aaronguo1996.github.io/authors/david-justo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jiaxiao Zhou</title>
+      <link>https://aaronguo1996.github.io/authors/jiaxiao-zhou/</link>
+      <pubDate>Mon, 27 Jan 2020 15:33:17 -0800</pubDate>
+      <guid>https://aaronguo1996.github.io/authors/jiaxiao-zhou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Micheal James</title>
+      <link>https://aaronguo1996.github.io/authors/micheal-james/</link>
+      <pubDate>Mon, 27 Jan 2020 15:33:17 -0800</pubDate>
+      <guid>https://aaronguo1996.github.io/authors/micheal-james/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nadia Polikarpova</title>
+      <link>https://aaronguo1996.github.io/authors/nadia-polikarpova/</link>
+      <pubDate>Mon, 27 Jan 2020 15:33:17 -0800</pubDate>
+      <guid>https://aaronguo1996.github.io/authors/nadia-polikarpova/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ranjit Jhala</title>
+      <link>https://aaronguo1996.github.io/authors/ranjit-jhala/</link>
+      <pubDate>Mon, 27 Jan 2020 15:33:17 -0800</pubDate>
+      <guid>https://aaronguo1996.github.io/authors/ranjit-jhala/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zheng Guo</title>
+      <link>https://aaronguo1996.github.io/authors/zheng-guo/</link>
+      <pubDate>Mon, 27 Jan 2020 15:33:17 -0800</pubDate>
+      <guid>https://aaronguo1996.github.io/authors/zheng-guo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ziteng Wang</title>
+      <link>https://aaronguo1996.github.io/authors/ziteng-wang/</link>
+      <pubDate>Mon, 27 Jan 2020 15:33:17 -0800</pubDate>
+      <guid>https://aaronguo1996.github.io/authors/ziteng-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://aaronguo1996.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aaronguo1996.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a Ph.D. student in the 
+&lt;a href=&#34;https://cse.ucsd.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Computer Science and Engineering Department&lt;/a&gt;
+
+at the 
+&lt;a href=&#34;https://www.ucsd.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of California, San Diego&lt;/a&gt;
+.
+I am fortunate to be advised by 
+&lt;a href=&#34;http://cseweb.ucsd.edu/~npolikarpova&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Nadia Polikarpova&lt;/a&gt;
+,
+and be a member of 
+&lt;a href=&#34;http://cseweb.ucsd.edu/groups/progsys/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Programming Systems group&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;I am interested in using programming language techniques to automate programming tasks.
+Currently, I focus on synthesis tools that generate programs with given specifications,
+work to make the automated search scale to real-world need and
+try to infer human intentions from limited information.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
