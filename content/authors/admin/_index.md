@@ -72,7 +72,9 @@ at the [University of California, San Diego](https://www.ucsd.edu).
 I am fortunate to be advised by [Prof. Nadia Polikarpova](http://cseweb.ucsd.edu/~npolikarpova), 
 and be a member of [Programming Systems group](http://cseweb.ucsd.edu/groups/progsys/).
 
-I am interested in using programming language techniques to automate programming tasks. 
-Currently, I focus on synthesis tools that generate programs with given specifications, 
-work to make the automated search scale to real-world need and 
-try to infer human intentions from limited information.
+
+I am interested in using Programming Languages techniques to automate programming tasks. 
+Currently, my focus is on program synthesis tools, 
+which generate programs from high-level specifications. 
+My goal is to enable the synthesis to scale to real-world tasks and 
+to infer human intentions from limited information.
