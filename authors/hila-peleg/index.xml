@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Zheng Guo</title>
-    <link>https://aaronguo1996.github.io/publication/</link>
-      <atom:link href="https://aaronguo1996.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <title>Hila Peleg | Zheng Guo</title>
+    <link>https://aaronguo1996.github.io/authors/hila-peleg/</link>
+      <atom:link href="https://aaronguo1996.github.io/authors/hila-peleg/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hila Peleg</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 15 May 2020 15:33:17 -0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Publications</title>
-      <link>https://aaronguo1996.github.io/publication/</link>
+      <title>Hila Peleg</title>
+      <link>https://aaronguo1996.github.io/authors/hila-peleg/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://aaronguo1996.github.io/publication/hplus/</link>
       <pubDate>Fri, 15 May 2020 15:33:17 -0800</pubDate>
       <guid>https://aaronguo1996.github.io/publication/hplus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Program Synthesis by Type-Guided Abstraction Refinement</title>
-      <link>https://aaronguo1996.github.io/publication/tygar/</link>
-      <pubDate>Mon, 27 Jan 2020 15:33:17 -0800</pubDate>
-      <guid>https://aaronguo1996.github.io/publication/tygar/</guid>
       <description></description>
     </item>
     

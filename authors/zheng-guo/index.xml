@@ -5,12 +5,20 @@
     <link>https://aaronguo1996.github.io/authors/zheng-guo/</link>
       <atom:link href="https://aaronguo1996.github.io/authors/zheng-guo/index.xml" rel="self" type="application/rss+xml" />
     <description>Zheng Guo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Jan 2020 15:33:17 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 15 May 2020 15:33:17 -0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Zheng Guo</title>
       <link>https://aaronguo1996.github.io/authors/zheng-guo/</link>
     </image>
+    
+    <item>
+      <title>Digging for Fold: Synthesis-Aided API Discovery for Haskell</title>
+      <link>https://aaronguo1996.github.io/publication/hplus/</link>
+      <pubDate>Fri, 15 May 2020 15:33:17 -0800</pubDate>
+      <guid>https://aaronguo1996.github.io/publication/hplus/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Program Synthesis by Type-Guided Abstraction Refinement</title>
