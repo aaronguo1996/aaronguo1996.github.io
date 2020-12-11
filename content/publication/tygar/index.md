@@ -4,7 +4,7 @@
 title: "Program Synthesis by Type-Guided Abstraction Refinement"
 authors: [Zheng Guo, Micheal James, David Justo, Jiaxiao Zhou, Ziteng Wang, Ranjit Jhala, Nadia Polikarpova]
 date: 2020-01-27T15:33:17-08:00
-doi: ""
+doi: "10.1145/3371080"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2020-01-27T15:33:17-08:00
@@ -36,12 +36,8 @@ links:
   url: tygar-paper.pdf
   icon_pack: far
   icon: file-pdf
-- name: DOI
-  url: https://dl.acm.org/ft_gateway.cfm?id=3371080
-  icon_pack: fas
-  icon: link
 - name: CODE
-  url: https://github.com/davidmrdavid/hoogle_plus/tree/mj_popl_aec
+  url: https://github.com/TyGus/hoogle_plus/tree/mj_popl_aec
   icon_pack: fas
   icon: code-branch
 

@@ -25,11 +25,11 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: CODE
-  url: https://github.com/davidmrdavid/hoogle_plus/
+  url: https://github.com/TyGus/hoogle_plus/
   icon_pack: fas
   icon: code-branch
 - name: DEMO
-  url: https://goto.ucsd.edu/hoogle_plus
+  url: https://hplus.programming.systems
   icon_pack: fas
   icon: tools
 
