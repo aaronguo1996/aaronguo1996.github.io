@@ -1,0 +1,11 @@
+
+          <div class="teaching">
+            <ul>
+              {% for item in site.data.service %}
+                  <li>
+                    <span class="font-weight-normal mr-1">{{ item.year }}</span>
+                    <span>{{ item.committee }} of {{ item.venues | join: ", " }}</span>
+                  </li>
+              {% endfor %}
+            </ul>
+          </div>

@@ -1,0 +1,10 @@
+
+          <div class="teaching">
+            <ul>
+              {% for item in site.data.teaching %}
+              <li class="mb-1">
+                <span class="font-weight-normal">{{ item.course }}: {{ item.name }}</span> ({{ item.level }}), {{ item.position }} @
+                {{ item.years | join: ", " }}</li>
+              {% endfor %}
+            </ul>
+          </div>

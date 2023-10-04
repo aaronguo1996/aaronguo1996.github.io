@@ -1,0 +1,7 @@
+- title: "APIphany: Type-Directed Program Synthesis for RESTful APIs"
+  event: PLDI'22
+  location: San Diego, USA
+
+- title: "Hoogle+: Program Synthesis by Type-Guided Abstraction Refinement"
+  event: POPL'20
+  location: New Orleans, USA

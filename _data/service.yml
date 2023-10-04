@@ -1,0 +1,18 @@
+- year: 2022
+  committee: Artifact Evaluation Committee
+  venues:
+    - POPL
+    - PLDI
+
+- year: 2021
+  committee: Artifact Evaluation Committee
+  venues:
+    - ICFP
+    - PLDI
+    - CAV
+
+- year: 2020
+  committee: Artifact Evaluation Committee
+  venues:
+    - ICFP
+    - ECOOP
