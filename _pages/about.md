@@ -22,6 +22,6 @@ service: true
 
 I am a Ph.D candidate in the [Computer Science and Engineering](https://cse.ucsd.edu) department at the [University of California, San Diego](https://www.ucsd.edu). I am fortunate to be advised by [Dr. Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova), and be a member of [Programming Systems group](https://cseweb.ucsd.edu/groups/progsys). Before PhD, I got my master degree in computer science from UCSD and bachelor degree in software engineering from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn).
 
-I am interested in using programming language and machine learning techniques to automate programming tasks. My research aims to simplify the software development process for engineers, including program generation, optimization, and migration. Currently, I focus on refining techniques to narrow down search spaces in component-based synthesis. Beyond that, I explore methods to reduce the burden of selecting solution from numerous synthesis results.
+I am interested in using programming language and machine learning techniques to automate programming tasks. My research aims to simplify the software development process for engineers, including program generation, optimization, and migration.
 
 **Research interests**: program synthesis, program optimization, artificial intelligence, compilers
