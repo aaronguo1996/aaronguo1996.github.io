@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "email: zhg069@ucsd.edu"
+subtitle: "email: zhgguo@umich.edu"
 
 profile:
   align: right
@@ -20,8 +20,8 @@ service: true
 
 ---
 
-I am a Ph.D. candidate in the [Computer Science and Engineering](https://cse.ucsd.edu) department at the [University of California, San Diego](https://www.ucsd.edu). I am fortunate to be advised by [Dr. Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova), and be a member of [Programming Systems group](https://cseweb.ucsd.edu/groups/progsys). Before Ph.D., I earned my master's degree in computer science from UCSD and bachelor's degree in software engineering from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn).
+I am a postdoctoral researcher in the [EECS department](https://cse.engin.umich.edu/) at the [Unversity of Michigan Ann Arbor](https://umich.edu/), working with Professor [Xinyu Wang](https://web.eecs.umich.edu/~xwangsd/). I achieved my Ph.D. degree from the [University of California San Diego](https://www.ucsd.edu) under the supervision of Professor [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova). Before Ph.D., I earned my bachelor's degree in software engineering from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn).
 
-I am interested in using programming language and machine learning techniques to automate programming tasks. My research aims to simplify the software development process for engineers, including program generation, optimization, and migration.
+I am interested in using programming language and machine learning techniques to simplify the software development process, especially for scientific researchers.
 
-**Research interests**: program synthesis, program optimization, artificial intelligence, compilers
+**Research interests**: program synthesis, program optimization, AI for science
