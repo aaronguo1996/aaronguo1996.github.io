@@ -20,7 +20,7 @@ service: true
 
 ---
 
-I am a postdoctoral researcher in the [EECS department](https://cse.engin.umich.edu/) at the [Unversity of Michigan Ann Arbor](https://umich.edu/), working with Professor [Xinyu Wang](https://web.eecs.umich.edu/~xwangsd/). I achieved my Ph.D. degree from the [University of California San Diego](https://www.ucsd.edu) under the supervision of Professor [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova). Before Ph.D., I earned my bachelor's degree in software engineering from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn).
+I am a postdoctoral researcher in the [EECS department](https://cse.engin.umich.edu/) at the [Unversity of Michigan Ann Arbor](https://umich.edu/), working with Professor [Xinyu Wang](https://web.eecs.umich.edu/~xwangsd). I achieved my Ph.D. degree from the [University of California San Diego](https://www.ucsd.edu) under the supervision of Professor [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova). Before Ph.D., I earned my bachelor's degree in software engineering from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn).
 
 I am interested in using programming language and machine learning techniques to simplify the software development process, especially for scientific researchers.
 
