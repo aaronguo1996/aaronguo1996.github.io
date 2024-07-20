@@ -2,12 +2,12 @@
   name: Programming Language
   level: undergrad
   position: teaching assistant
-  years: 
+  years:
     - SP’20
     - SP’21
     - FA’21
     - SP’23
-        
+
 - course: CSE 291
   name: Program Synthesis
   level: graduate
@@ -19,22 +19,19 @@
   name: Advanced Compilers
   level: graduate
   position: teaching assistant
-  years: 
+  years:
     - WI’19
 
 - course: COGS 18
-  name: Introduction to Python 
+  name: Introduction to Python
   level: undergrad
   position: teaching assistant
   years:
     - Summer’19
-              
+
 - course: CSE 230
   name: Programming Languages
   level: graduate
   position: teaching assistant
-  years: 
+  years:
     - FA’18
-              
-
-

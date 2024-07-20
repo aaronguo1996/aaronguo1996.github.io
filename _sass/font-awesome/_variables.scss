@@ -31,7 +31,7 @@ $fa-sizes: (
   "lg": $fa-size-scale-lg,
   "xl": $fa-size-scale-xl,
   "2xl": $fa-size-scale-2xl,
-  ) !default;
+) !default;
 
 $fa-li-width: 2em !default;
 $fa-li-margin: $fa-li-width * fa-divide(5, 4) !default;
@@ -42,8 +42,7 @@ $fa-primary-opacity: 1 !default;
 $fa-secondary-opacity: 0.4 !default;
 
 $fa-stack-vertical-align: middle !default;
-$fa-stack-width: (
-  $fa-fw-width * 2) !default;
+$fa-stack-width: ($fa-fw-width * 2) !default;
 $fa-stack-z-index: auto !default;
 
 $fa-font-display: block !default;

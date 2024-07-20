@@ -1,9 +1,11 @@
 <div class="talks">
-    <ul>
-        {% if site.data.talks != blank %}
-            {% for item in site.data.talks %}
-                <li class="mb-1"> <span class="font-weight-normal">{{ item.title }}</span> ({{ item.event }}, {{ item.location }}) </li>
-            {% endfor %}
-        {% endif %}
-    </ul>
+  <ul>
+    {% if site.data.talks != blank %}
+      {% for item in site.data.talks %}
+        <li class="mb-1">
+          <span class="font-weight-normal">{{ item.title }}</span> ({{ item.event }}, {{ item.location }})
+        </li>
+      {% endfor %}
+    {% endif %}
+  </ul>
 </div>

@@ -96,8 +96,7 @@ d-article {
     margin-right: 0px;
     margin-top: 0em;
     display: grid;
-    grid-template-columns:
-      minmax(8px, 1fr) [toc] auto minmax(8px, 1fr) [toc-line] 1px minmax(32px, 2fr);
+    grid-template-columns: minmax(8px, 1fr) [toc] auto minmax(8px, 1fr) [toc-line] 1px minmax(32px, 2fr);
 
     nav {
       grid-column: toc;

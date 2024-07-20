@@ -196,9 +196,7 @@
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">
-          <i class="fa-regular fa-bookmark mr-1"></i>Bib
-        </a>
+        <a class="bibtex btn btn-sm z-depth-0" role="button"> <i class="fa-regular fa-bookmark mr-1"></i>Bib </a>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
@@ -209,9 +207,7 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">
-            <i class="far fa-file-pdf mr-1"></i>PDF
-          </a>  
+          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button"> <i class="far fa-file-pdf mr-1"></i>PDF </a>
         {% else %}
           <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">
             <i class="far fa-file-pdf mr-1"></i>PDF
@@ -220,9 +216,7 @@
       {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
-          <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">
-            <i class="far fa-file-pdf mr-1"></i>Extended
-          </a>
+          <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button"> <i class="far fa-file-pdf mr-1"></i>Extended </a>
         {% else %}
           <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">
             <i class="far fa-file-pdf mr-1"></i>Extended
@@ -238,9 +232,7 @@
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
       {% endif %}
       {% if entry.code %}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">
-          <i class="fas fa-code-branch mr-1"></i>Code
-        </a>
+        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button"> <i class="fas fa-code-branch mr-1"></i>Code </a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
@@ -251,9 +243,7 @@
       {% endif %}
       {% if entry.slides %}
         {% if entry.slides contains '://' %}
-          <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">
-            <i class="fa-regular fa-file-powerpoint mr-1"></i>Slides
-          </a>
+          <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button"> <i class="fa-regular fa-file-powerpoint mr-1"></i>Slides </a>
         {% else %}
           <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">
             <i class="fa-regular fa-file-powerpoint mr-1"></i>Slides
