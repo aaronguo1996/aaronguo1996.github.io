@@ -3,86 +3,119 @@
   contents:
     - name: Full Name
       value: Zheng Guo
+    - name: Position
+      value: Postdoctoral Researcher, University of Michigan
+    - name: Email
+      value: zhgguo@umich.edu
+    - name: Research Focus
+      value: Accelerating computational science (AI for science)
     - name: Languages
       value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: Ph.D. in Computer Science
       institution: University of California San Diego, La Jolla, USA
       year: 2024
-    - title: MSc
+      description:
+        - "Advisor: Prof. Nadia Polikarpova"
+        - "Focus: program synthesis and program optimization"
+    - title: M.Sc. in Computer Science
       institution: University of California San Diego, La Jolla, USA
       year: 2019
-    - title: BEng
+    - title: B.Eng. in Software Engineering
       institution: Shanghai Jiao Tong University, Shanghai, China
       year: 2017
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Researcher
+      institution: University of Michigan, Ann Arbor — EECS Department
+      year: 2024 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - "Advisor: Prof. Xinyu Wang"
+        - Building program-synthesis and optimization tools to accelerate computational science as part of the broader AI-for-science effort.
+    # --- PLACEHOLDER: add internships / other positions below ---
+    # - title: Research Intern
+    #   institution: Company / Lab, Location
+    #   year: 20XX
+    #   description:
+    #     - What you worked on.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: AI for Science
+      items:
+        - Automating and accelerating scientific software development.
+        - Machine-learning-guided program search.
+    - title: Program Synthesis
+      items:
+        - Type-directed and specification-guided synthesis.
+    - title: Program Optimization
+      items:
+        - Semantics-preserving rewriting and performance tuning.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+- title: Selected Honors and Awards
+  type: time_table
+  contents:
+    # --- PLACEHOLDER: replace with your real awards ---
+    - year: 20XX
+      items:
+        - Award name — awarding body
+        - Award name — awarding body
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+- title: Publications
+  type: time_table
+  contents:
+    - title: 'Full and up-to-date list on <a href="https://scholar.google.com/citations?user=taZ1uaAAAAAJ&hl=en">Google Scholar</a>.'
+    - title: '<a href="https://doi.org/10.1145/3371080">Program Synthesis by Type-Guided Abstraction Refinement</a>'
+      institution: POPL
+      year: 2019
+    - title: '<a href="https://doi.org/10.1145/3428273">Digging for Fold: Synthesis-Aided API Discovery for Haskell</a>'
+      institution: OOPSLA
+      year: 2020
+    - title: '<a href="https://doi.org/10.1145/3519939.3523450">Type-Directed Program Synthesis for RESTful APIs</a>'
+      institution: PLDI
+      year: 2022
+    - title: '<a href="https://doi.org/10.1145/3547622">Searching Entangled Program Spaces</a>'
+      institution: ICFP
+      year: 2022
+    - title: '<a href="https://arxiv.org/abs/2502.02711">Tensor Network Structure Search Via Canonical Dimension Tree Enumeration</a>'
+      institution: arXiv
+      year: 2025
+    - title: '<a href="https://dl.acm.org/doi/abs/10.1145/3808288">Presynthesis: Towards Scaling Up Program Synthesis with Finer-Grained Abstract Semantics</a>'
+      institution: PLDI
+      year: 2026
+    - title: '<a href="https://www.sciencedirect.com/science/article/pii/S0021999126005814">Hierarchical search of tree tensor networks for high-dimensional data</a>'
+      institution: Journal of Computational Physics
+      year: 2026
+
+- title: Teaching
+  type: time_table
+  contents:
+    # --- PLACEHOLDER: add courses you taught or assisted ---
+    - title: Teaching Assistant / Guest Lecturer
+      institution: Course name, Institution
+      year: 20XX
+
+- title: Service
+  type: list
+  contents:
+    # --- PLACEHOLDER: reviewing, program committees, mentoring, etc. ---
+    - Reviewer / Program Committee — Venue (Year)
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    # --- PLACEHOLDER: link your repos ---
+    - title: <a href="https://github.com/aaronguo1996">Project name</a>
+      year: 20XX-now
+      description: One-line description of the project.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> add your hobbies here.

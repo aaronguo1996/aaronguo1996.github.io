@@ -25,7 +25,7 @@
       "institution": "University of California San Diego",
       "location": "La Jolla, USA",
       "url": "https://www.ucsd.edu",
-      "area": "Program Synthesis",
+      "area": "Computer Science",
       "studyType": "PhD",
       "startDate": "2019-09",
       "endDate": "2024-06"
@@ -49,33 +49,35 @@
       "endDate": "2017-06"
     }
   ],
-  "work": [
-    {
-      "name": "Electrical Engineering and Computer Science, University Of Michigan",
-      "position": "Postdoctoral Researcher",
-      "url": "https://eecs.engin.umich.edu/",
-      "startDate": "2024-07-08",
-      "endDate": "",
-      "summary": "Supervised by Professor Xinyu Wang and working on optimization for scientific computing algorithms."
-    },
-    {
-      "name": "Google Inc.",
-      "position": "Software Engineering Intern",
-      "url": "https://about.google/",
-      "startDate": "2022-06",
-      "endDate": "2022-12",
-      "summary": "Worked at Google Labs on a project for program synthesis."
-    },
-    {
-      "name": "MathWorks",
-      "position": "Compiler Engineer Intern",
-      "url": "https://www.mathworks.com/",
-      "startDate": "2020-06",
-      "endDate": "2020-09",
-      "summary": "Worked at HDL toolbox team on a project for code generation."
-    }
-  ],
   "publications": [
+    {
+      "name": "Hierarchical search of tree tensor networks for high-dimensional data",
+      "publisher": "Journal of Computational Physics 2026",
+      "releaseDate": "2026-06",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021999126005814",
+      "authors": "Guo, Zheng and Deshpande, Aditya and Wang, Xinyu and Kiedrowski, Brian C. and Gorodetsky, Alex A."
+    },
+    {
+      "name": "Presynthesis: Towards Scaling Up Program Synthesis with Finer-Grained Abstract Semantics",
+      "publisher": "PLDI 2026",
+      "releaseDate": "2026-06",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3808288",
+      "authors": "Dong, Rui and Wu, Qingyue and Ding, Danny and Guo, Zheng and Ji, Ruyi and Wang, Xinyu"
+    },
+    {
+      "name": "Automated Lifting for Cloud Infrastructure-as-Code Programs",
+      "publisher": "AIOps 2025 (ICSE Workshop)",
+      "releaseDate": "2025-05",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11029329",
+      "authors": "Peng, Jingjia and Qiu, Yiming and Kon, Patrick Tser Jern and Zhao, Pinhan and Huang, Yibo and Guo, Zheng and Wang, Xinyu and Chen, Ang"
+    },
+    {
+      "name": "Tensor Network Structure Search Via Canonical Dimension Tree Enumeration",
+      "publisher": "arXiv 2025",
+      "releaseDate": "2025-02",
+      "url": "https://arxiv.org/abs/2502.02711",
+      "authors": "Guo, Zheng and Deshpande, Aditya and Kiedrowski, Brian and Wang, Xinyu and Gorodetsky, Alex"
+    },
     {
       "name": "Searching Entangled Program Spaces",
       "publisher": "ICFP 2022",
@@ -105,16 +107,111 @@
       "authors": "Guo, Zheng and James, Michael and Justo, David and Zhou, Jiaxiao and Wang, Ziteng and Jhala, Ranjit and Polikarpova, Nadia"
     }
   ],
-  "languages": [
+  "work": [
     {
-      "language": "Chinese",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Electrical Engineering and Computer Science, University Of Michigan",
+      "position": "Postdoctoral Researcher",
+      "url": "https://eecs.engin.umich.edu/",
+      "startDate": "2024-07-08",
+      "endDate": "",
+      "summary": "Mentored by Professors Xinyu Wang, Alex Gorodetsky, and Brian Kiedrowski, working on accelerating computational science (AI for science)."
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "name": "Google Inc.",
+      "position": "Software Engineering Intern",
+      "url": "https://about.google/",
+      "startDate": "2022-06",
+      "endDate": "2022-12",
+      "summary": "Worked at Google Labs on a project for program synthesis."
+    },
+    {
+      "name": "MathWorks",
+      "position": "Compiler Engineer Intern",
+      "url": "https://www.mathworks.com/",
+      "startDate": "2020-06",
+      "endDate": "2020-09",
+      "summary": "Worked at HDL toolbox team on a project for code generation."
+    }
+  ],
+  "teaching": [
+    {
+      "course": "EECS 481: Software Engineering",
+      "role": "Co-Instructor",
+      "institution": "University of Michigan, Ann Arbor",
+      "url": "https://web.eecs.umich.edu/~xwangsd/courses/w26/index.html",
+      "term": "Winter 2026"
+    },
+    {
+      "course": "AI for Scientists and Engineers Summer Academy",
+      "role": "Instructor",
+      "institution": "MIDAS, University of Michigan",
+      "url": "https://midas.umich.edu/events/aise-sa-2026/",
+      "term": "2025, 2026"
+    },
+    {
+      "course": "CSE 130: Programming Languages",
+      "role": "Teaching Assistant",
+      "institution": "University of California San Diego",
+      "term": "2020 – 2023"
+    },
+    {
+      "course": "CSE 291: Program Synthesis",
+      "role": "Teaching Assistant",
+      "institution": "University of California San Diego",
+      "term": "Winter 2021"
+    },
+    {
+      "course": "CSE 231: Advanced Compilers",
+      "role": "Teaching Assistant",
+      "institution": "University of California San Diego",
+      "term": "Winter 2019"
+    },
+    {
+      "course": "COGS 18: Introduction to Python",
+      "role": "Teaching Assistant",
+      "institution": "University of California San Diego",
+      "term": "Summer 2019"
+    },
+    {
+      "course": "CSE 230: Programming Languages",
+      "role": "Teaching Assistant",
+      "institution": "University of California San Diego",
+      "term": "Fall 2018"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Eric and Wendy Schmidt AI in Science Postdoctoral Fellowship",
+      "date": "2024",
+      "awarder": "Schmidt Sciences / MIDAS, University of Michigan",
+      "url": "https://midas.umich.edu/training/postdoctoral-programs/schmidt-ai-in-science-postdoctoral-fellowship/"
+    },
+    {
+      "title": "ACM SIGPLAN PAC Grant for POPL 2020",
+      "date": "2020",
+      "awarder": "ACM SIGPLAN"
+    },
+    {
+      "title": "PLMW Scholarship for ICFP 2018",
+      "date": "2018",
+      "awarder": "ACM SIGPLAN PLMW"
+    }
+  ],
+  "service": [
+    {
+      "committee": "Artifact Evaluation Committee",
+      "venues": "POPL, PLDI",
+      "year": "2022"
+    },
+    {
+      "committee": "Artifact Evaluation Committee",
+      "venues": "ICFP, PLDI, CAV",
+      "year": "2021"
+    },
+    {
+      "committee": "Artifact Evaluation Committee",
+      "venues": "ICFP, ECOOP",
+      "year": "2020"
     }
   ]
 }

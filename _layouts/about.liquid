@@ -39,13 +39,25 @@ layout: default
           {% if page.profile.more_info %}
             <div class="more-info">{{ page.profile.more_info }}</div>
           {% endif %}
+          {% if page.social %}
+            <div class="profile-social text-center mt-2" style="font-size: 1.3rem;">
+              {% include social.liquid %}
+            </div>
+          {% endif %}
         </div>
       {% endif %}
     </div>
 
+    <!-- Job market banner (full width) -->
+    {% if page.job_market %}
+      <div class="job-market-banner mb-5" role="alert">
+        <i class="fa-solid fa-briefcase"></i>&nbsp; <strong>On the job market (2026–2027).</strong> <a href="mailto:zhgguo@umich.edu">Get in touch</a>.
+      </div>
+    {% endif %}
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
-      <h2>
+      <h2 class="mt-5">
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
@@ -53,15 +65,43 @@ layout: default
 
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
-      <h2>
+      <h2 class="mt-5">
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Projects -->
+    {% if page.projects_preview %}
+      <h2 class="mt-5">
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Projects</a>
+      </h2>
+      {% assign project_categories = "active,previous" | split: "," %}
+      {% for category in project_categories %}
+        {% assign cat_count = site.projects | where: 'category', category | size %}
+        {% if cat_count == 0 %}{% continue %}{% endif %}
+        {% assign cat_projects = site.projects | where: 'category', category | sort: 'importance' %}
+        <h3 class="project-category mt-4 mb-3">{{ category }}</h3>
+        {% for project in cat_projects %}
+          <div class="project-item mb-4">
+            <p class="mb-1" style="font-weight: 500;">{{ project.title }}</p>
+            <p class="mb-2">{{ project.content }}</p>
+            {% if project.papers %}
+              <p class="mb-0" style="font-size: 0.9rem;">
+                <span style="font-weight: 500;">Relevant publications:</span>
+                {% for paper in project.papers %}
+                  <a href="{{ paper.url }}" title="Paper">{{ paper.title }}</a>{% unless forloop.last %};&nbsp;{% endunless %}
+                {% endfor %}
+              </p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      {% endfor %}
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>Publications</h2>
+      <h2 class="mt-5">Publications</h2>
       {% include selected_papers.liquid %}
     {% endif %}
 

@@ -10,6 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info:
 
+job_market: true # shows the full-width "on the job market" banner below the bio
+projects_preview: true # shows collapsible project lists (grouped by category) on the home page
 news: false # includes a list of news items
 talks: true # includes a list of talk items
 latest_posts: false # includes a list of the newest posts
@@ -19,8 +21,8 @@ teaching: true
 service: true
 ---
 
-I am a postdoctoral researcher in the [EECS department](https://cse.engin.umich.edu/) at the [Unversity of Michigan Ann Arbor](https://umich.edu/), working with Professor [Xinyu Wang](http://web.eecs.umich.edu/~xwangsd). I achieved my Ph.D. degree from the [University of California San Diego](https://www.ucsd.edu) under the supervision of Professor [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova). Before Ph.D., I earned my bachelor's degree in software engineering from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn).
+I am a [Schmidt AI in Science](https://midas.umich.edu/training/postdoctoral-programs/schmidt-ai-in-science-postdoctoral-fellowship/) Fellow at the [University of Michigan Ann Arbor](https://umich.edu/), hosted by the [Michigan Institute for Data & AI in Society (MIDAS)](https://midas.umich.edu/). I work with Professor [Xinyu Wang](http://web.eecs.umich.edu/~xwangsd), Professor [Alex Gorodetsky](https://aero.engin.umich.edu/people/gorodetsky-alex/), and Professor [Brian Kiedrowski](https://ners.engin.umich.edu/people/kiedrowski-brian/). I earned my Ph.D. from the [University of California San Diego](https://www.ucsd.edu) under the supervision of Professor [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova), and my bachelor's degree in software engineering from [Shanghai Jiao Tong University](https://www.sjtu.edu.cn).
 
-I am interested in using programming language and machine learning techniques to simplify the software development process, especially for scientific researchers.
+My research focuses on **accelerating computational science** — building tools that let scientists express, discover, and optimize the programs behind their experiments. As part of the broader **AI for science** effort, I combine program synthesis, program optimization, and deep learning to automate the tedious and error-prone parts of scientific software, so researchers can move from idea to result faster and with more confidence.
 
-**Research interests**: program synthesis, program optimization, AI for science
+**Research interests**: program synthesis, program optimization, tensor network methods, kernel optimization, AI for science

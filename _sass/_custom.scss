@@ -1,0 +1,105 @@
+/*******************************************************************************
+ * Custom polish layer (loaded last so it overrides theme defaults).
+ ******************************************************************************/
+
+// ---- Typography -------------------------------------------------------------
+$font-sans: "Inter", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+body {
+  font-family: $font-sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.005em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.card-title {
+  font-family: $font-sans;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.post .post-header .post-title {
+  font-weight: 700;
+}
+
+// Section headers on the home page: subtle accent underline.
+.post > article > h2 {
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+// ---- Links ------------------------------------------------------------------
+a {
+  transition:
+    color 0.15s ease-in-out,
+    opacity 0.15s ease-in-out;
+}
+
+.post a:not(.no-underline):hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+// ---- Profile picture + social ----------------------------------------------
+.profile img {
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+}
+
+.profile-social {
+  a {
+    color: var(--global-text-color-light);
+    margin: 0 5px;
+    transition: color 0.15s ease-in-out;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+// ---- Job-market banner ------------------------------------------------------
+.job-market-banner {
+  background: rgba(91, 63, 154, 0.07);
+  border: 1px solid rgba(91, 63, 154, 0.22);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 8px;
+  padding: 0.9rem 1.1rem;
+  font-size: 0.95rem;
+
+  i {
+    color: var(--global-theme-color);
+  }
+}
+
+// ---- Publications: highlight my own name ------------------------------------
+.publications .author em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+// ---- Project list items -----------------------------------------------------
+.project-item {
+  p {
+    line-height: 1.6;
+  }
+}
+
+// Category sub-headings within projects.
+.post .project-category {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--global-text-color-light);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-bottom: none;
+}

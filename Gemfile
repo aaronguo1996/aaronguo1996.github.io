@@ -18,7 +18,7 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
+    # gem 'mini_racer'  # commented out: native V8 build fails on macOS; only needed for production JS minification. Node.js provides the JS runtime instead.
     gem 'unicode_utils'
     gem 'webrick'
 end
@@ -27,3 +27,9 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+# Stdlib gems removed from Ruby's defaults in 3.5/4.0 — required by some plugins.
+gem 'ostruct'
+gem 'logger'
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
