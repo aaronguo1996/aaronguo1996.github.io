@@ -11,4 +11,4 @@ papers:
     url: https://doi.org/10.1145/3547622
 ---
 
-Program synthesis lets scientists say *what* to compute and leave the *how* to the machine, but it must scale to be useful. I make search practical with compact representations of enormous, entangled program spaces and precomputed abstract semantics that prune wrong programs fast.
+Program synthesis lets scientists say _what_ to compute and leave the _how_ to the machine, but it must scale to be useful. I make search practical with compact representations of enormous, entangled program spaces and precomputed abstract semantics that prune wrong programs fast.

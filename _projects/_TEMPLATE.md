@@ -11,13 +11,14 @@
 #   3. The project automatically appears on the /projects/ page.
 # =============================================================================
 
-layout: page                       # keep as "page"
-title: Project title               # shown on the card and project page
+layout: page # keep as "page"
+title: Project title # shown on the card and project page
 description: One-line summary shown on the project card.
-img: assets/img/1.jpg              # thumbnail shown beside the title (optional; remove if none)
-importance: 1                      # lower number = appears earlier in its category
-category: active                   # "active" or "previous"
-                                   #   (categories set in _pages/projects.md: display_categories: [active, previous])
+img: assets/img/1.jpg # thumbnail shown beside the title (optional; remove if none)
+importance: 1 # lower number = appears earlier in its category
+category:
+  active # "active" or "previous"
+  #   (categories set in _pages/projects.md: display_categories: [active, previous])
 # --- links to relevant papers (shown under the description on the home page) --
 # papers:
 #   - title: "Paper title (Venue 'YY)"

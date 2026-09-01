@@ -51,7 +51,8 @@ layout: default
     <!-- Job market banner (full width) -->
     {% if page.job_market %}
       <div class="job-market-banner mb-5" role="alert">
-        <i class="fa-solid fa-briefcase"></i>&nbsp; <strong>On the job market (2026–2027).</strong> <a href="mailto:zhgguo@umich.edu">Get in touch</a>.
+        <i class="fa-solid fa-briefcase"></i>&nbsp; <strong>On the job market (2026–2027).</strong>
+        <a href="mailto:zhgguo@umich.edu">Get in touch</a>.
       </div>
     {% endif %}
 
@@ -76,7 +77,7 @@ layout: default
       <h2 class="mt-5">
         <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Projects</a>
       </h2>
-      {% assign project_categories = "active,previous" | split: "," %}
+      {% assign project_categories = 'active,previous' | split: ',' %}
       {% for category in project_categories %}
         {% assign cat_count = site.projects | where: 'category', category | size %}
         {% if cat_count == 0 %}{% continue %}{% endif %}
@@ -90,7 +91,8 @@ layout: default
               <p class="mb-0" style="font-size: 0.9rem;">
                 <span style="font-weight: 500;">Relevant publications:</span>
                 {% for paper in project.papers %}
-                  <a href="{{ paper.url }}" title="Paper">{{ paper.title }}</a>{% unless forloop.last %};&nbsp;{% endunless %}
+                  <a href="{{ paper.url }}" title="Paper">{{ paper.title }}</a>
+                  {%- unless forloop.last %};&nbsp;{% endunless %}
                 {% endfor %}
               </p>
             {% endif %}

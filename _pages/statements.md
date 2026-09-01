@@ -19,8 +19,7 @@ _[Placeholder — add your research statement here.]_
 
 A short summary of your research vision on accelerating computational science as part of AI for science: the problems you work on, your approach (program synthesis, program optimization, and machine learning), key results, and where you plan to take this next.
 
-<!-- To attach a PDF: place it in assets/pdf/ and link it, e.g.
-[Download the research statement (PDF)](/assets/pdf/research_statement.pdf) -->
+To attach a PDF later, place it in `assets/pdf/` and add a download link here.
 
 ---
 
@@ -30,8 +29,6 @@ _[Placeholder — add your teaching statement here.]_
 
 Your teaching philosophy, experience, and the courses you are prepared to teach.
 
-<!-- [Download the teaching statement (PDF)](/assets/pdf/teaching_statement.pdf) -->
-
 ---
 
 ## Diversity Statement
@@ -39,5 +36,3 @@ Your teaching philosophy, experience, and the courses you are prepared to teach.
 _[Placeholder — add your diversity statement here.]_
 
 Your perspective on and contributions to diversity, equity, and inclusion in research and teaching.
-
-<!-- [Download the diversity statement (PDF)](/assets/pdf/diversity_statement.pdf) -->

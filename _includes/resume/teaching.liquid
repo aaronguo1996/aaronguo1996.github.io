@@ -15,9 +15,16 @@
         </div>
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
-            {% if content.url %}<a href="{{ content.url }}">{{ content.course }}</a>{% else %}{{ content.course }}{% endif %}
+            {% if content.url -%}
+              <a href="{{ content.url }}">{{ content.course }}</a>
+            {%- else -%}
+              {{- content.course -}}
+            {%- endif %}
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.role }}{% if content.institution %}, {{ content.institution }}{% endif %}</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+            {{ content.role -}}
+            {%- if content.institution %}, {{ content.institution }}{% endif %}
+          </h6>
         </div>
       </div>
     </li>

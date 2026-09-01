@@ -2,7 +2,15 @@
   <ul>
     {% for item in site.data.teaching %}
       <li class="mb-1">
-        <span class="font-weight-normal">{% if item.url %}<a href="{{ item.url }}">{{ item.course }}</a>{% else %}{{ item.course }}{% endif %}{% if item.name %}: {{ item.name }}{% endif %}</span>{% if item.level %} ({{ item.level }}){% endif %}, {{ item.position }} @
+        <span class="font-weight-normal">
+          {%- if item.url -%}
+            <a href="{{ item.url }}">{{ item.course }}</a>
+          {%- else -%}
+            {{- item.course -}}
+          {%- endif -%}
+          {%- if item.name %}: {{ item.name }}{% endif -%}
+        </span>
+        {%- if item.level %} ({{ item.level }}){% endif %}, {{ item.position }} @
         {{ item.years | join: ', ' }}
       </li>
     {% endfor %}
