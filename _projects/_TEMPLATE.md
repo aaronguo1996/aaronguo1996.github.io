@@ -24,11 +24,11 @@ category:
 #   - title: "Paper title (Venue 'YY)"
 #     url: /assets/pdf/your_paper.pdf     # local PDF, or an external https:// link
 #   - title: "Another paper"
-#     url: https://doi.org/....
+#     url: (a DOI or arXiv link)
 # --- other optional fields ---------------------------------------------------
-# github: https://github.com/USER/REPO   # adds a "Code" link
+# github: (link to your GitHub repo)     # adds a "Code" link
 # github_stars: USER/REPO                # shows live star count (needs the repo path)
-# redirect: https://external-site.com    # card links here instead of a project page
+# redirect: (an external URL)            # card links here instead of a project page
 # related_publications: true             # render citations from your _bibliography
 # pretty_table: true                     # nicer tables on the project page
 # chart:                                 # enable chart.js / echarts if needed
