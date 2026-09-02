@@ -1,6 +1,7 @@
 # URLs that work in a browser but reject automated link checkers (HTTP 403/429),
 # so lychee reports them as "broken" even though they are fine.
 # Each line is a regex matched against the URL.
+localhost
 dl\.acm\.org
 doi\.org
 ieeexplore\.ieee\.org
